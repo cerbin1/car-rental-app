@@ -1,0 +1,18 @@
+.car {
+  display: block;
+  background-color: whitesmoke;
+
+  &__name {
+    color: aqua;
+    font-size: 2em;
+  }
+
+  &__price {
+    font-size: 1.5em;
+    color: black;
+  }
+
+  &__photo {
+    width: 100%;
+  }
+}

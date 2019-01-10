@@ -1,0 +1,18 @@
+<p>
+  car-list works!
+</p>
+<h3 *ngIf="cars.length == 0">Nie ma zadnych autek</h3>
+
+<ul>
+  <li *ngFor="let car of cars" class="car">
+    <span class="car__name">{{car.name}}</span>
+    <div class="car__price">
+      Price per day: {{car.pricePerDay}}
+    </div>
+    <div class="car__photo">
+      <img
+        src="{{car.photo}}"
+        alt="Image not working">
+    </div>
+  </li>
+</ul>
