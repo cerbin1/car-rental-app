@@ -1,15 +1,16 @@
 package pl.bartek.przelewy24;
 
-import org.junit.Assert;
+/* import org.junit.Assert;
 import org.junit.Test;
 import pl.bartek.support.http.HttpClient;
 import pl.bartek.support.http.Response;
 
 import java.util.List;
 import java.util.Map;
+*/
 
 public class Przelewy24ApiTest {
-    private SpyHttpClient httpClient = new SpyHttpClient();
+  /* private SpyHttpClient httpClient = new SpyHttpClient();
     private String merchantId;
     private String posId;
 
@@ -70,6 +71,5 @@ public class Przelewy24ApiTest {
 
         // then
 
-    }
-
+    }*/
 }

@@ -16,9 +16,9 @@ public class Przelewy24Api {
 
     public void testConnection() {
         Map<String, String> params = new HashMap<>(3);
-        params.put("p24_merchant_id", );
-        params.put("p24_pos_id", );
-        params.put("p24_sign", ); // TODO end test connection, response should be message: 200
+//        params.put("p24_merchant_id", );
+//        params.put("p24_pos_id", );
+//        params.put("p24_sign", ); // TODO end test connection, response should be message: 200
 
         Response response = httpClient.post(TEST_CONNECTION_URL, params);
     }
